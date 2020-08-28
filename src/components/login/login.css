@@ -1,0 +1,74 @@
+.loginContainer{
+    width:400px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    right:0;
+    bottom: 0;
+    z-index: 1001;
+    background-color:gray;
+    animation-fill-mode: both;
+}
+.loginHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.loginTitle{
+    font-size: 60px;
+    color: white;
+}
+.loginInputHolder{
+    display: flex;
+    flex-direction: column;
+}
+.rememberPwdHolder{
+    display: flex;
+    width: 110px;
+    justify-content: space-between;
+    align-items: center;
+}
+.authInput, .authButton{
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #219653;
+    margin-bottom: 10px;
+}
+.authButton{
+    width: 150px;
+    margin: 10px 0;
+    background-color: #219653;
+    color: white;
+    font-weight: bold;
+}
+label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.subtitleText{
+    font-size: 10px;
+    font-style: italic;
+}
+
+.active {
+    animation-name: loginBoxIn;
+    animation-duration: 1s;
+}
+
+.hideBox {
+    animation-name:loginBoxOut;
+    animation-duration: 1s;
+}
+
+@keyframes loginBoxIn {
+    0%{transform: translateX(400px)}
+    100%{transform: translateX(0px);}
+}
+
+@keyframes loginBoxOut {
+    0%{transform: translateX(0px)}
+    100%{transform: translateX(400px);}
+}

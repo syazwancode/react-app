@@ -1,0 +1,53 @@
+.listContainer{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+}
+.listContainer:hover{
+    background-color: gray;
+}
+.infoColumn{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+p{
+    margin: 0;
+}
+.platformColumn{
+    grid-column: 1/2;
+}
+.nameColumn{
+    grid-column: 2/6;
+    font-size: 12px;
+}
+.priceColumn{
+    grid-column: 6/7;
+    text-align: left;
+    font-weight: bold;
+}
+.linkColumn{
+    grid-column:7/8;  
+}
+.linkColumn a:hover{
+    color: black;
+}
+.buyButton{
+    height: 30px;
+    padding:1px;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.buyButton a{
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+}
+.buyButton:hover{
+    background-color: #219653;
+    transform: scale(1.1);
+}

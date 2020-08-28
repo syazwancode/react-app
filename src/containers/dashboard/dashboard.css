@@ -1,0 +1,35 @@
+.dashboardContainer{
+    width: 1000px;
+    margin: 20px auto;
+}
+.dashboardHeader{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.upgradeBtn{
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: #219653;
+    color: white;
+    font-weight: bold;
+}
+.profileContainer{
+    padding: 10px;
+    display: flex;
+    justify-content: left   ;
+    align-items: center;
+}
+.profileContainer ul{
+    list-style-type: none;
+    width: 50%;
+}
+.profileContainer ul li b{
+    display: inline-block;
+    width: 100px;
+}
