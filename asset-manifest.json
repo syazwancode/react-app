@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/react-app/static/css/main.1b9f3207.chunk.css",
-    "main.js": "/react-app/static/js/main.bec30470.chunk.js",
+    "main.js": "/react-app/static/js/main.7624c2b3.chunk.js",
     "runtime-main.js": "/react-app/static/js/runtime-main.2ef98780.js",
     "static/css/2.4df217b3.chunk.css": "/react-app/static/css/2.4df217b3.chunk.css",
-    "static/js/2.61278c71.chunk.js": "/react-app/static/js/2.61278c71.chunk.js",
+    "static/js/2.4e31021b.chunk.js": "/react-app/static/js/2.4e31021b.chunk.js",
     "index.html": "/react-app/index.html",
-    "precache-manifest.238c2f925a2e24d7927424ffd3d8cebc.js": "/react-app/precache-manifest.238c2f925a2e24d7927424ffd3d8cebc.js",
+    "precache-manifest.c2a053a55188c0ac91db54c53c1346b5.js": "/react-app/precache-manifest.c2a053a55188c0ac91db54c53c1346b5.js",
     "service-worker.js": "/react-app/service-worker.js",
     "static/media/lazada_banner.png": "/react-app/static/media/lazada_banner.4fd94c63.png",
     "static/media/lazada_square.png": "/react-app/static/media/lazada_square.9297a28e.png",
@@ -16,8 +16,8 @@
   "entrypoints": [
     "static/js/runtime-main.2ef98780.js",
     "static/css/2.4df217b3.chunk.css",
-    "static/js/2.61278c71.chunk.js",
+    "static/js/2.4e31021b.chunk.js",
     "static/css/main.1b9f3207.chunk.css",
-    "static/js/main.bec30470.chunk.js"
+    "static/js/main.7624c2b3.chunk.js"
   ]
 }
